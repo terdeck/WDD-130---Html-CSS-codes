@@ -1,4 +1,26 @@
-div {
+content {
     max-width: 1600px;
+    margin: 0 auto;
+}
+nav, a, hero-msg h1, hero-msg h4, .button-box, main, section {
+    text-align: center;
+}
+background {
+    height: 725px;
+}
+body {
+    background-color: white;
+}
+header {
+    background-color: #144365;
+}
+nav a:hover {
+    background-color: #F5DE73;
+    color: #144365;
+}
+nav a {
+    color: white;
+}
+.home-title {
     
 }
