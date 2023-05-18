@@ -14,6 +14,9 @@
 .hero-img {
     width: 100px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 .logo {
     width: 80px;
     padding-top: 5px;
@@ -109,13 +112,13 @@ main section img {
     box-sizing: border-box;
 }
 .rivers-card {
-    margin: 200px;
+    margin: 200px 0;
 }
 .camping-card {
-    margin: 200px;
+    margin: 200px 0;
 }
 .rapids-card {
-    margin: 200px;
+    margin: 200px 0;
 }
 footer {
     background-color: #144365;
