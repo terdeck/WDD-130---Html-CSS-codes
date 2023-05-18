@@ -34,6 +34,18 @@ nav a {
     text-align: center;
     text-decoration: none;
 }
+h1 {
+    font-family: "Rock Salt";
+}
+h2 {
+    font-family: "Rock Salt";
+}
+h4 {
+    font-family: Quicksand;
+}
+p {
+    font-family: Quicksand;
+}
 .icon {
     width: 80px;
 }
