@@ -41,6 +41,7 @@ h2 {
     font-family: "Rock Salt";
 }
 h4 {
+    color: #7BC4D5;
     font-family: Quicksand;
 }
 p {
@@ -51,9 +52,6 @@ p {
 }
 .home-title {
     color: #144365;
-}
-h4 {
-    color: #7BC4D5;
 }
 .book {
     background-color: #7BC4D5;
