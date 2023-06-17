@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Rock+Salt&display=swap');
 
+/* main page */
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -31,7 +32,7 @@
 }
 #hero-msg h4 {
     color:#F5DE73;
-    /* margin-bottom: 40px; */
+    margin-bottom: 30px;
 }
 #hero-img {
     width: 100%;
@@ -197,6 +198,61 @@ footer p a:hover {
 }
 footer .social img {
     padding-top: 15px;
+}
+
+/* trip page */
+.trip-grid {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr; /* 4 columns total*/
+    grid-template-rows: repeat(10, .5fr);
+    color:#667D81;
+}
+.trip-img {
+    border: 10px solid #144365;
+    width: 400px;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #667D81;
+}
+.card-img:hover {
+    opacity: .6;
+    transform: scale(1.1)
+}
+.river1-card {
+    grid-area: 2/2/3/4;
+    display: flex;
+    text-align: left;
+    margin-bottom: 3em;
+}
+.river1_msg {
+    text-align: left;
+    margin-left: 2em;
+}
+.helmets-card {
+    grid-area: 3/2/4/4;
+    display: flex;
+    margin-bottom: 3em;
+}
+.helmets_msg {
+    text-align: left;
+    margin-left: 2em;
+}
+.river2-card {
+    grid-area: 4/2/5/4;
+    display: flex;
+    margin-bottom: 3em;
+}
+.river2_msg {
+    text-align: left;
+    margin-left: 2em;
+}
+.oars-card {
+    grid-area: 5/2/6/4;
+    display: flex;
+    margin-bottom: 3em;
+}
+.oars_msg {
+    text-align: left;
+    margin-left: 2em;
 }
 
 /* responsive CSS for small screens */
