@@ -33,6 +33,7 @@
 #hero-msg h4 {
     color:#F5DE73;
     margin-bottom: 30px;
+    font-size: larger;
 }
 #hero-img {
     width: 100%;
@@ -59,6 +60,7 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+    font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica, sans-serif;
 }
 nav a:hover {
     background-color: #F5DE73;
@@ -69,6 +71,7 @@ nav a {
     text-align: center;
     text-decoration: none;
     padding: 35px;
+    font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica, sans-serif;
 }
 h2 {
     font-family: "Rock Salt", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -93,6 +96,7 @@ p {
 }
 .button-box {
     text-align: center;
+    font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica, sans-serif;
 }
 .book {
     background-color: #7BC4D5;
@@ -204,60 +208,70 @@ footer .social img {
 .trip-grid {
     display: grid;
     grid-template-columns: 1fr 2fr 2fr 1fr; /* 4 columns total*/
-    grid-template-rows: repeat(10, .5fr);
+    grid-template-rows: .5fr repeat(4, 1fr) .25fr; /* 6 rows total*/
     color:#667D81;
 }
 .trip-img {
     border: 10px solid #144365;
-    width: 400px;
+    width: 500px;
+    height: 300px;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #667D81;
 }
-.card-img:hover {
+.trip-img:hover {
     opacity: .6;
     transform: scale(1.1)
 }
-.river1-card {
-    grid-area: 2/2/3/4;
-    display: flex;
+h3 {
+    color: #144365;
+    font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica, sans-serif;
     text-align: left;
+}
+#river1_img {
+    grid-area: 2/2/3/4;
     margin-bottom: 3em;
 }
 .river1_msg {
     text-align: left;
     margin-left: 2em;
+    grid-area: 2/3/3/4;
+    font-size: large;
 }
-.helmets-card {
+
+#helmets_img{
     grid-area: 3/2/4/4;
-    display: flex;
     margin-bottom: 3em;
 }
 .helmets_msg {
     text-align: left;
     margin-left: 2em;
+    grid-area: 3/3/4/4;
+    font-size: large;
 }
-.river2-card {
+#river2_img {
     grid-area: 4/2/5/4;
-    display: flex;
     margin-bottom: 3em;
 }
 .river2_msg {
     text-align: left;
     margin-left: 2em;
+    grid-area: 4/3/5/4;
+    font-size: large;
 }
-.oars-card {
+#oars_img {
     grid-area: 5/2/6/4;
-    display: flex;
     margin-bottom: 3em;
 }
 .oars_msg {
     text-align: left;
     margin-left: 2em;
+    grid-area: 5/3/6/4;
+    font-size: large;
 }
 
 /* responsive CSS for small screens */
 @media screen and (max-width: 900px) {
-    #hero, .home-grid {
+    #hero, .home-grid .trip-grid{
         display: block;
         height: auto;
     }
@@ -295,5 +309,14 @@ footer .social img {
     }
     footer {
         margin-top: 25px;
+    }
+    #river1_img, #helmets_img, #river2_img, #oars_img {
+        display: block;
+        margin: 60px auto;
+        width: 50%;
+    }
+    .river1_msg, .helmets_msg, .river2_msg, .oars_msg {
+        display: inline-block;
+        margin: auto 20px;
     }
 }
