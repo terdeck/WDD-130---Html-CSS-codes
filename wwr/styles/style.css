@@ -115,6 +115,7 @@ p {
     padding: 15px 30px;
     margin-top: 50px;
     border-radius: 5px;
+    font-family: 'Quicksand', Verdana, Geneva, Tahoma, sans-serif, Arial, Helvetica, sans-serif;
 }
 .book:hover {
     background-color: #F5DE73;
