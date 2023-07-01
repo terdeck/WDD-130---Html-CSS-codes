@@ -110,7 +110,7 @@ main section {
 footer {
     background-color: #145932;
     color: white;
-    font-size: 1.2em;
+    font-size: 1em;
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -119,19 +119,8 @@ footer {
 }
 footer img {
     width: 25%;
+    margin: auto;
     top: 0px;
-}
-#footer-title1 {
-    font-weight: lighter;
-}
-#footer-title2 {
-    font-size: xx-large;
-    letter-spacing: 0.em;
-}
-#footer-title3 {
-    font-weight: lighter;
-    font-style: italic;
-    font-size: larger;
 }
 footer p {
     font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
