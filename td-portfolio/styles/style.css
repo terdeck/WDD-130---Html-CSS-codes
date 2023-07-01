@@ -6,9 +6,19 @@
     max-width: 1600px;
     margin: 0 auto;
 }
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-area: 1/2/2/3; */
+}
 #header-background, #logo_link {
     display: inline-block;
     position: absolute;
+}
+.header-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 header img {
     width: 50%;
@@ -16,7 +26,6 @@ header img {
 }
 #header-msg {
     position: absolute;
-    text-align: center;
     top: 70px;
     bottom: 0px;
     line-height: .75em;
@@ -25,15 +34,18 @@ header img {
 }
 #header-title1 {
     font-weight: lighter;
+    text-align: center;
 }
 #header-title2 {
     font-size: xx-large;
     letter-spacing: 0.2em;
+    text-align: center;
 }
 #header-title3 {
     font-weight: lighter;
     font-style: italic;
     font-size: larger;
+    text-align: center;
 }
 header {
     display: grid;
@@ -70,7 +82,7 @@ nav a:hover {
 }
 .home-img {
     height: 700px;
-    width: 700px;
+    width: 100%;
     margin: 40px 40px 40px 10px;
     border: 15px solid #0D2720;
 }
