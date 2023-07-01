@@ -81,26 +81,6 @@ main section {
 #poster_img {
     grid-area: 1/2/2/3;
 }
-
-/* img overlay
-.poster_msg .bus_card_msg .logo_msg .ad_msg {
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5); Black see-through 
-    color: #f1f1f1;
-    width: 100%;
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    text-align: center;
-}
-.home-img:hover {
-    opacity: 1;
-} */
-
 #bus_card_img {
     grid-area: 1/3/2/4;
 }
