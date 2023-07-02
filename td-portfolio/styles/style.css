@@ -60,7 +60,7 @@ nav a:hover {
 .home-grid {
     display: grid;
     grid-template-columns: 50px 1fr 100px 1fr 50px;  /* 5 columns */
-    grid-template-rows: 1fr 150px 1 fr 50px; /* 4 rows */
+    grid-template-rows: 1fr 150px 1fr 50px; /* 4 rows */
 }
 .home-img {
     /* height: 700px;
