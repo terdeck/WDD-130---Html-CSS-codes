@@ -10,49 +10,25 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-#header-background, #logo_link {
+/* #header-background, #logo_{
     display: inline-block;
     position: absolute;
-}
+} */
 .header-logo {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* grid-area: 1/2/2/3; */
-    width: 50%;
-}
-header img {
-    width: 50%;
+    display: grid;
+    grid-column: 2/3;
+    /* margin-left: auto;
+    margin-right: auto; */
+    max-width: 400px;
+ }
+/* header img {
+    width: 100px;
     top: 0px;
-}
-#header-msg {
-    position: absolute;
-    line-height: .75em;
-    z-index: 10;
-    color: white;
-}
-#header-title1 {
-    font-weight: lighter;
-    text-align:center;
-    grid-area: 1/2/2/3;
-}
-#header-title2 {
-    font-size: xx-large;
-    letter-spacing: 0.2em;
-    text-align: center;
-    grid-area: 1/2/2/3;
-}
-#header-title3 {
-    font-weight: lighter;
-    font-style: italic;
-    font-size: larger;
-    text-align: center;
-    grid-area: 1/2/2/3;
-}
+} */
 nav {
-    /* margin-top: 25px; */
+    /* margin-top: 5px; */
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #145932;
     height: 50px;
     grid-row: 2;
@@ -68,7 +44,7 @@ nav a {
 }
 nav a:hover {
     background-color: #AF9040;
-    color: #145932;
+    color: #0D2720;
 }
 .button-boxes {
     align-self: center;
@@ -76,7 +52,7 @@ nav a:hover {
 #title-msg {
     color: #AF9040;
     text-align: center;
-    font-weight:100;
+    font-weight:lighter;
     /* font-style: italic; */
 }
 
@@ -87,8 +63,10 @@ nav a:hover {
     grid-template-rows: 1fr 150px 1 fr 50px; /* 4 rows */
 }
 .home-img {
-    height: 700px;
-    width: 100%;
+    /* height: 700px;
+    width: 100%; */
+    max-width: 550px;
+    max-height: 550px;
     /* margin: 40px 40px 0px 40px; */
     border: 12px solid #0D2720;
 }
@@ -132,19 +110,23 @@ footer {
     align-items: center;
     text-decoration: none;
 }
-footer img {
+/* footer img {
     width: 25%;
     margin: auto;
     top: 0px;
-}
+} */
 footer p {
     font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
 }
 footer .social img {
     padding-top: 15px;
     width: 50px;
     height: 50px;
-    margin: auto;
+    margin: 8px;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
 }
 
 /* main page end */
