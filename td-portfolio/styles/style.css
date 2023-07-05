@@ -215,7 +215,35 @@ footer .social img {
 /* contact child page */
 
 .intro {
+    /* color: #145932; */
+    color: #AF9040;
+}
+.intro h2 {
+    /* background-color: #AF9040; */
+    /* color: #AF9040; */
     color: #145932;
+}
+.intro h3 {
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+}
+.intro h4 {
+    font-style: italic;
+    color: #AF9040;
+    font-size: small;
+    font-weight: lighter;
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+}
+.intro p {
+    margin-top: -5px;
+    color: #0D2720;
+    font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-small;
+    font-weight: lighter;
+}
+.head_shot {
+    max-width: 200px;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -255,6 +283,8 @@ input[type=text], select, textarea {
     background-color: white;
     padding: 20px;
     font-family: 'Libre Baskerville', Georgia, 'Times New Roman', Times, serif;
+    color: #145932;
+
   }
 
 /* contact child end */
