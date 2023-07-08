@@ -219,6 +219,7 @@ footer .social img {
     margin-bottom: 50px;
 }
 .sp_container {
+/* .sp_slides { */
     /* img */
     grid-area: 1/2/2/3;
 }
