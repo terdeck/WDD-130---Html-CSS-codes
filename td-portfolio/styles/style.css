@@ -118,7 +118,7 @@ footer p {
     font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
-footer .social img {
+.footer_img {
     padding-top: 15px;
     width: 50px;
     height: 50px;
@@ -148,7 +148,7 @@ footer .social img {
 .sp_slides, .bodoni_slides, .bus_slides, .macbeth_slides, .pamphlet_slides, .panda_slides, .barilla_slides {
     display: none
 }
-img {
+.slide_img {
     vertical-align: middle;
 }
 
