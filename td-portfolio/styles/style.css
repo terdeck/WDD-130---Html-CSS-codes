@@ -149,12 +149,10 @@ footer p {
 /* .sp_container, .bodoni_container, .bus_container, .macbeth_container, .pamphlet_container, .charmin_container, .panda_container, .barilla_container {
   display: none;
 } */
+/* img slides */
 .sp_slides, .bodoni_slides, .bus_slides, .macbeth_slides, .pamphlet_slides, .panda_slides, .barilla_slides {
     display: none;
 }
-/* .slide_img {
-    vertical-align: middle;
-} */
 
 /* Next & previous buttons */
 .prev, .next {
@@ -213,6 +211,7 @@ footer p {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+/* msg boxes */
 .sp_port, .bodoni_port, .bus_port, .macbeth_port, .pamphlet_port, .charmin_port, .panda_port, .barilla_port {
     font-size: small;
     font-weight: 400;
