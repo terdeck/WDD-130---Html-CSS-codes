@@ -308,16 +308,15 @@ footer p {
     display: grid;
     grid-template-columns: 10px 2fr 10px; 
     grid-template-rows: 30px 1fr 2fr 1fr; 
-    margin-top: 30px;
-    /* margin-bottom: 10px; */
+    margin-top: 50px;
 }
 .intro {
     display: grid;
     /* grid-area: 2/2/3/3; */
     grid-row: 2/3;
     grid-column: 2/3;
-    /* color: #145932; */
     color: #AF9040;
+    margin-top: 40px;
 }
 /* like what you see */
 .intro h2 {   
@@ -327,6 +326,8 @@ footer p {
     grid-row: 2/3;
     grid-column: 2/3;
     color: #145932;
+    margin-top: 30px;
+    padding: 20px;
 }
 /* fill out / email */
 .intro h3 {
@@ -336,13 +337,17 @@ footer p {
     font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
     font-size: medium;
-    margin-top: 65px;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: -8px;
+    max-width: 600px;
+    padding: 20px;
 }
 /* thanks */
 main h4 {
     /* grid-area: 4/2/5/3; */
-    grid-row: 4/5;
-    grid-column: 2/3;
+    /* grid-row: 4/5;
+    grid-column: 2/3; */
     font-style: italic;
     color: #AF9040;
     font-size: small;
@@ -354,9 +359,9 @@ main h4 {
 /* headshot copyright */
 main p {
     /* grid-area: 4/2/5/3; */
-    grid-row: 4/5;
-    grid-column: 2/3;
-    margin-top: -5px;
+    /* grid-row: 4/5;
+    grid-column: 2/3; */
+    margin-top: 0px;
     color: #0D2720;
     font-family: 'Lato', Verdana, Geneva, Tahoma, sans-serif;
     font-size: x-small;
@@ -365,30 +370,32 @@ main p {
 }
 .head_shot {
     /* grid-area: 4/2/5/3; */
-    grid-row: 4/5;
-    grid-column: 2/3;
+    /* grid-row: 4/5;
+    grid-column: 2/3; */
     max-width: 200px;
     margin-top: 50px;
 }
  /* Add a background color and some padding around the form */
  .contact_form {
     /* grid-area: 3/2/4/3; */
-    grid-row: 3/4;
-    grid-column: 2/3;
+    /* grid-row: 3/4;
+    grid-column: 2/3; */
+    margin: 40px auto;
     border-radius: 5px;
     background-color: white;
     padding: 20px;
     font-family: 'Libre Baskerville', Georgia, 'Times New Roman', Times, serif;
     color: #145932;
     max-width: 600px;
+    margin-top: 0px;
     /* margin-left: 450px; */
   }
 
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     /* grid-area: 3/2/4/3; */
-    grid-row: 3/4;
-    grid-column: 2/3;
+    /* grid-row: 3/4;
+    grid-column: 2/3; */
     width: 100%; /* Full width */
     padding: 12px; /* Some padding */ 
     border: 1px solid #145932; /* green border */
@@ -403,8 +410,8 @@ input[type=text], select, textarea {
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
     /* grid-area: 3/2/4/3; */
-    grid-row: 3/4;
-    grid-column: 2/3;
+    /* grid-row: 3/4;
+    grid-column: 2/3; */
     background-color: #145932;
     color: white;
     padding: 12px 20px;
@@ -418,12 +425,11 @@ input[type=text], select, textarea {
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
     /* grid-area: 3/2/4/3; */
-    grid-row: 3/4;
-    grid-column: 2/3;
+    /* grid-row: 3/4;
+    grid-column: 2/3; */
     background-color: #AF9040;
     color: #0D2720;
   }
-  
   /* Add a background color and some padding around the form */
   /* .contact_form {
     grid-area: 3/2/4/3;
